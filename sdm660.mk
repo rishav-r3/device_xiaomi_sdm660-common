@@ -18,7 +18,9 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/qcom-caf/msm8998/audio \
     hardware/qcom-caf/msm8998/display \
     hardware/qcom-caf/msm8998/media \
-    hardware/qcom-caf/common
+    hardware/qcom-caf/common \
+    hardware/google/interfaces \
+    hardware/google/pixel
 
 # Permissions
 PRODUCT_COPY_FILES += \
