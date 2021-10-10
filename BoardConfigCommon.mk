@@ -137,6 +137,7 @@ TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
 #BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/private
 
 # Minimal Sepolicy
+SELINUX_IGNORE_NEVERALLOWS := true
 BOARD_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy-minimal
 
 # VNDK
