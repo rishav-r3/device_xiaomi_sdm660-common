@@ -68,6 +68,17 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.effect@5.0-impl:32 \
     android.hardware.audio.service \
     android.hardware.soundtrigger@2.1-impl:32 \
+    android.hardware.audio.common@4.0.vendor \
+    android.hardware.audio.common@5.0.vendor \
+    android.hardware.audio.common@6.0.vendor \
+    android.hardware.audio.effect@2.0.vendor \
+    android.hardware.audio.effect@4.0.vendor \
+    android.hardware.audio.effect@5.0.vendor \
+    android.hardware.audio.effect@6.0.vendor \
+    android.hardware.audio@2.0.vendor \
+    android.hardware.audio@4.0.vendor \
+    android.hardware.audio@5.0.vendor \
+    android.hardware.audio@6.0.vendor \
     audio.a2dp.default \
     audio.primary.sdm660 \
     audio.r_submix.default \
@@ -117,6 +128,10 @@ PRODUCT_PACKAGES += \
     audio.bluetooth.default \
     android.hardware.bluetooth@1.0.vendor \
     android.hardware.bluetooth.audio@2.0-impl \
+    android.hardware.bluetooth.a2dp@1.0.vendor \
+    android.hardware.bluetooth.audio@2.0.vendor \
+    android.hardware.bluetooth@1.0.vendor \
+    android.hardware.bluetooth@1.1.vendor \
     libbthost_if \
     libhdmiedid \
     libhfp \
