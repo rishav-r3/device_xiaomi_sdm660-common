@@ -173,8 +173,9 @@ endif
 # Display
 PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0 \
+    android.frameworks.displayservice@1.0_32 \
     android.frameworks.displayservice@1.0.vendor \
-    android.hardware.graphics.allocator@2.0-impl \
+    android.hardware.graphics.allocator@2.0-impl:64 \
     android.hardware.graphics.allocator@2.0-service \
     android.hardware.graphics.allocator@3.0-impl \
     android.hardware.graphics.allocator@4.0-impl \
@@ -182,24 +183,14 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@2.0-impl-2.1 \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
+    android.hardware.renderscript@1.0-impl \
     gralloc.sdm660 \
     hwcomposer.sdm660 \
     memtrack.sdm660 \
     libdisplayconfig \
     libtinyxml \
     libqdMetaData \
-    libqdMetaData.system
-
-PRODUCT_PACKAGES += \
-    android.frameworks.displayservice@1.0_32 \
-    android.hardware.graphics.allocator@2.0-impl:64 \
-    android.hardware.graphics.allocator@2.0-service \
-    android.hardware.graphics.mapper@2.0-impl-2.1 \
-    android.hardware.graphics.composer@2.1-service \
-    android.hardware.memtrack@1.0-impl \
-    android.hardware.memtrack@1.0-service \
-    android.hardware.renderscript@1.0-impl \
-    android.frameworks.displayservice@1.0 \
+    libqdMetaData.system \
     vendor.display.config@1.1
 
 # DPM
@@ -381,20 +372,20 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.radio.deprecated@1.0 \
     android.hardware.radio.deprecated@1.0.vendor \
-    android.hardware.radio@1.5 \
     android.hardware.radio@1.2 \
+    android.hardware.radio@1.5 \
     android.hardware.radio.config@1.1 \
     android.hardware.secure_element@1.0 \
     android.hardware.secure_element@1.2 \
     android.hardware.secure_element@1.2.vendor \
     android.system.net.netd@1.1.vendor \
-    android.hardware.radio@1.5.vendor \
     android.hardware.radio@1.4.vendor \
+    android.hardware.radio@1.5.vendor \
     android.hardware.radio.config@1.2 \
     android.hardware.radio.config@1.2.vendor \
-    android.hardware.secure_element@1.2.vendor \
-    android.hardware.secure_element@1.1.vendor \
     android.hardware.secure_element@1.0.vendor \
+    android.hardware.secure_element@1.1.vendor \
+    android.hardware.secure_element@1.2.vendor \
     librmnetctl \
     libprotobuf-cpp-full
 
