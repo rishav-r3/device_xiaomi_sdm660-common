@@ -16,3 +16,7 @@ telephony.lteOnCdmaDevice=1
 
 # System
 persist.sys.binary_xml=false
+
+# PixelPlus-UI Props
+ro.pixelplusui.maintainer=Rishav
+org.pixelplusui.device=Redmi Note 5 pro
