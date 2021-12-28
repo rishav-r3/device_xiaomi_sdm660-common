@@ -20,3 +20,6 @@ persist.sys.binary_xml=false
 # PixelPlus-UI Props
 ro.pixelplusui.maintainer=Rishav
 org.pixelplusui.device=Redmi Note 5 pro
+
+# Disable blur on app launch
+ro.launcher.blur.appLaunch=0
