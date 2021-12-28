@@ -183,7 +183,6 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@2.0-impl-2.1 \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
-    android.hardware.renderscript@1.0-impl \
     gralloc.sdm660 \
     hwcomposer.sdm660 \
     memtrack.sdm660 \
@@ -363,10 +362,6 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, external/json-c/Android.configure.mk)
 PRODUCT_PACKAGES += \
     libjson
-
-# RenderScript HAL
-PRODUCT_PACKAGES += \
-    android.hardware.renderscript@1.0-impl
 
 # RIL
 PRODUCT_PACKAGES += \
